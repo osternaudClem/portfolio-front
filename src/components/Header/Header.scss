@@ -1,0 +1,43 @@
+.Header {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem 20px;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+
+  &__link {
+    color: inherit;
+    font-size: 1em;
+    margin-left: 1rem;
+    text-decoration: none;
+
+    &--active {
+      color: $color-accent;
+    }
+  }
+
+  &__logo {
+    width: 48px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: $wrapper) {
+  .Header {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    width: $wrapper;
+
+    &__link {
+      margin-left: 2rem;
+    }
+  }
+}

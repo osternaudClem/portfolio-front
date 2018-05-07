@@ -1,0 +1,42 @@
+.Intro {
+  padding: 120px 0;
+  
+  &__container {
+    align-items: center; 
+    display: flex;
+    margin: 0 auto;
+    width: $wrapper;
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    height: auto;
+    margin-right: 2rem;
+    width: 170px;
+  }
+
+  &__content {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2em;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6em;
+    margin-top: 0;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  .social-list {
+    margin-top: 20px;
+    text-align: center;
+
+    a {
+      color: #fff;
+      display: inline-block;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+  }
+}
