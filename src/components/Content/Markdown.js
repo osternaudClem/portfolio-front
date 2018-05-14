@@ -54,8 +54,17 @@ const compile = marksy({
         <Code language={language} code={code} />
       );
     },
+
     img({ src, alt }) {
       return <Image src={getImage(src)} alt={alt} />;
+    },
+
+    a({ href, children, title, ...props }) {
+      return (
+        <a href={href} title={title} target="_blank">
+          {children}
+        </a>
+      );
     },
   },
 });

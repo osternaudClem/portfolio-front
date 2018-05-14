@@ -12,7 +12,7 @@ module.exports = [
   {
     name: 'Medium',
     label: 'medium',
-    url: 'https://medium.com/osternaud_clem',
+    url: 'https://medium.com/@osternaud_clem',
   },
   {
     name: 'Messenger',
